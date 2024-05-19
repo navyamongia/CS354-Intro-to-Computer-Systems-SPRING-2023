@@ -1,0 +1,30 @@
+Script started on 2023-04-18 19:14:38-05:00 [TERM="xterm-256color" TTY="/dev/pts/39" COLUMNS="76" LINES="42"]
+[?2004h[navya@vm-instunix-10] (1)$ [7mtypescript[27m[1Ptypescrip[K[K[K[K[K[K[K[K[Kexitvim typescriptls[Kvim typescript ls[Kgdb s1objdump -d ./s4 > s4.txt3 > s3.txt2 > s2.txt1 > s1.txt
+[?2004l[?2004h[navya@vm-instunix-10] (2)$ objdump -d ./s1 > s1.txtexit[Kvim typescriptls[Kvim typescript ls[Kgdb s1objdump -d ./s4 > s4.txt3 > s3.txt2 > s2.txt
+[?2004l[?2004h[navya@vm-instunix-10] (3)$ objdump -d ./s2 > s2.txt1 > s1.txtexit[Kvim typescriptls[Kvim typescript ls[Kgdb s1objdump -d ./s4 > s4.txt3 > s3.txt
+[?2004l[?2004h[navya@vm-instunix-10] (4)$ objdump -d ./s3 > s3.txt2 > s2.txt1 > s1.txtexit[Kvim typescriptls[Kvim typescript ls[Kgdb s1objdump -d ./s4 > s4.txt
+[?2004l[?2004h[navya@vm-instunix-10] (5)$ gdb s1
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32ms1[m...
+(No debugging symbols found in [32ms1[m)
+[?2004h(gdb) b main
+[?2004lBreakpoint 1 at [34m0x12a6[m
+[?2004h(gdb) exit
+[?2004l[?2004h[navya@vm-instunix-10] (6)$ exit
+[?2004lexit
+
+Script done on 2023-04-18 19:15:13-05:00 [COMMAND_EXIT_CODE="0"]
